@@ -1,0 +1,24 @@
+{
+  "name": "weatherstation",
+  "version": "1.0.0",
+  "description": "School project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamuelCarinhas/WeatherStation.git"
+  },
+  "author": "Samuel Carinhas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamuelCarinhas/WeatherStation/issues"
+  },
+  "homepage": "https://github.com/SamuelCarinhas/WeatherStation#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.6",
+    "pug": "^2.0.3"
+  }
+}

@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  div(class='info')
+    div(class='item')
+      div(class='icon')
+        img(src='/images/icons/Temperature.png')
+      div(class='value')
+        a #{weather.temperature}ºC
+    div(class='item color')
+      div(class='icon')
+        img(src='/images/icons/Humidity.png')
+      div(class='value')
+        a #{weather.humidity}%
+    div(class='item')
+      div(class='icon')
+        img(src='/images/icons/Wind Velocity.png')
+      div(class='value')
+        a #{weather.windVelocity}km/h
+    div(class='item color')
+      div(class='icon')
+        img(src='/images/icons/Wind Direction.png')
+      div(class='value')
+        a #{weather.windDirection}
+    div(class='item')
+      div(class='icon')
+        img(src='/images/icons/Precipitation.png')
+      div(class='value')
+        a #{weather.precipitation}l/m²
+    div(class='item color last')
+      div(class='icon')
+        img(src='/images/icons/Atmospheric Pressure.png')
+      div(class='value')
+        a #{weather.atmosphericPressure}atm

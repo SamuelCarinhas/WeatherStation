@@ -1,0 +1,99 @@
+body {
+    background-color: #1E202B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+a.logoName {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+nav {
+    height: 113px;
+    line-height: 113px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10%;
+}
+
+nav img {
+    float: left;
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #202231;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #858585;
+    font-size: 30px;
+}
+
+div.info {
+    position:absolute;
+    background-color: #202231;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 30%;
+    width: 80%;
+    height: 40%;
+    border-radius: 25px;
+}
+
+div.info div.item {
+    color: white;
+    height: 100%;
+    width: 16.66666667%;
+    display: inline-block;
+    
+}
+
+div.color {
+    background-color: #222533;
+}
+
+div.last {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+div.info div.item-1 {
+    color: white;
+    width: 16.66666667%;
+    display: inline-block;
+    background-color: aqua;
+}
+
+div.info div.item div.icon img {
+    width: 45%;
+    height: 45%;
+}
+
+div.info div.item div.icon {
+    margin-top: 35%;
+    text-align: center;
+}
+
+div.info div.item div.value {
+    text-align: center;
+    color: #858585;
+    margin-top: 35%;
+    font-size: 30px;
+}
