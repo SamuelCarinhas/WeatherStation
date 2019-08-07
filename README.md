@@ -15,5 +15,5 @@ To install all dependencies, just run the command in nodejs prompt
 ## Authors
 
 Currently, there are two developers working on the weather station:
-- [JoséLopes](https://github.com/)
+- [JoséLopes](https://github.com/JaplOfficial)
 - [SamuelCarinhas](https://github.com/SamuelCarinhas)
